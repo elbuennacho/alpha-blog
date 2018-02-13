@@ -1,2 +1,67 @@
+$navbar-default-bg: #b7f7ff;
+
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color : #000000; /* This is in the left top */
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #57db5e; /* This is in the left top, when the mouse pass over it */
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('Thepaint.jpg');
+  /*background-size: cover;*/
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  background-color: #0c0c0c;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  }
+  
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+  
+footer ul {
+  float: right;
+  list-style: none;
+} 
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
