@@ -1,4 +1,4 @@
-$navbar-default-bg: #b7f7ff;
+$navbar-default-bg: #f9f072;
 
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
@@ -13,7 +13,7 @@ $navbar-default-bg: #b7f7ff;
 }
 
 #logo:hover {
-  color: #57db5e; /* This is in the left top, when the mouse pass over it */
+  color: #ff2002; /* This is in the left top, when the mouse pass over it */
   text-decoration: none;
 }
 
@@ -23,16 +23,15 @@ $navbar-default-bg: #b7f7ff;
 
 .jumbotron {
   background-image: asset-url('Thepaint.jpg');
-  /*background-size: cover;*/
   height: 550px;
 }
 
 .jumbotron h1 {
-  color: #fff;
-  background-color: #0c0c0c;
+  color: #0c0c0c;
+  background-color: #f9f072;
   text-align: center;
   margin-bottom: 30px;
-  letter-spacing: -1px;
+  letter-spacing: -3px;
   font-weight: bold;
 }
 
